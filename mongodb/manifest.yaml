@@ -32,15 +32,15 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mongodb
-  namespace: roboshop
+  namespace: roboshop1
   labels:
     component: mongodb
-    project: roboshop
+    project: roboshop1
     tier: database
 spec:
   selector:
     component: mongodb
-    project: roboshop
+    project: roboshop1
     tier: database
   ports:
   - protocol: TCP
